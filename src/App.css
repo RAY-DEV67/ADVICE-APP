@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(218, 23%, 16%);
+  font-family: 'Manrope', sans-serif;
+}
+.App {
+  text-align: center;
+}
+.spin{
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+.spinner{
+  margin: 0 auto;
+  background-color: transparent;
+}
+.head{
+  font-size: 1.5rem;
+  background-color: transparent;
+  color: hsl(193, 38%, 86%);
+}
+.contain{
+  width: 30%;
+  background-color:  hsl(217, 19%, 24%);
+  margin: 8rem auto;
+  padding: 3rem 2rem 5rem 2rem;
+  position: relative;
+  border-radius: 10px;
+}
+.divider{
+  margin-top: 1rem;
+  background-color: transparent;
+}
+.dice{
+  position: absolute;
+  top: 88%;
+  left: 74%;
+  width:55px;
+  height: 55px;
+  background-color: hsl(150, 100%, 66%);
+  padding: 0.5rem;
+  border-radius: 50%;
+cursor: pointer;
+}
+.dice:hover{
+  box-shadow: 5px 5px 30px 3px hsl(150, 100%, 66%) ;
+}
+.diceimg{
+  background-color: transparent;
+position: absolute;
+top: 28%;
+  left: 28%;
+  cursor: pointer;
+}
+.id{
+  background-color: transparent;
+  color:hsl(150, 100%, 66%)
+}
+.twitter{
+  width: 55px;
+ background-color: transparent;
+ position: absolute;
+ top: 88%;
+ left: 14%;
+  /* border-radius: 50%; */
+}
+@media (max-width:700px) {
+  .contain{
+    width: 90%;
+  }
+}
